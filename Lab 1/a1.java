@@ -16,4 +16,3 @@ class FactorFinder {
         scanner.close();
     }
 }
-`

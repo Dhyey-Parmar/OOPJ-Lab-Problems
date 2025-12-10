@@ -13,5 +13,6 @@ public class a2 {
             x=x/10;
         }
          System.out.println(sum);
+         sc.close();
     }
 }

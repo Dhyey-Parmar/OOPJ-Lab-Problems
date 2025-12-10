@@ -13,5 +13,6 @@ public class a3{
             sum=sum+array[i];
         }
         System.out.println("Sum of even numbers of array is "+sum);
+        sc.close();
     }
 }
