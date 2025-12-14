@@ -1,0 +1,30 @@
+// A 2 Create  class  Cube  with  attributes  (height,  width  and  depth  with  double  datatype). 
+// Implement  getter()  and  setter()  method  to  assign  data  for  2  cubes.  Create  method 
+// volume() to calculate volume for 2 cubes. [A]
+class Cube{
+    double height;
+    double width;
+    double depth;
+
+    public void setter(double height, double width, double depth){
+        this.height = height;
+        this.width = width;
+        this.depth = depth;
+    }
+
+    public double volume(){
+        return height * width * depth;
+    }
+}
+public class a2 {
+    public static void main(String[] args) {
+        Cube c1 = new Cube();
+        Cube c2 = new Cube();
+
+        c1.setter(3.5, 4.2, 5.1);
+        c2.setter(6.3, 7.4, 8.2);
+
+        System.out.println("Volume of Cube 1: " + c1.volume());
+        System.out.println("Volume of Cube 2: " + c2.volume());
+    }
+}

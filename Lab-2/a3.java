@@ -13,5 +13,7 @@ public class a3 {
     System.out.print("Enter a value through Scanner: ");
     String input = sc.nextLine();
     System.out.println("Scanner Input: " + input);
+
+    sc.close();
   }  
 }

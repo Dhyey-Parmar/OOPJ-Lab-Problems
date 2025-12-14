@@ -10,5 +10,6 @@ public class b4 {
     double fahrenheit = sc.nextDouble();
     double celsius = (fahrenheit - 32) * 5 / 9;
     System.out.println("Temperature in Celsius: " + celsius);
+    sc.close();
    } 
 }

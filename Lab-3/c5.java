@@ -23,5 +23,6 @@ public class c5 {
                 System.out.println("Largest number is: " + num3);
             }
         }
+        sc.close();
     }
 }

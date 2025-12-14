@@ -35,6 +35,7 @@ public class a2 {
             default:
                 System.out.println("Error: Invalid operation.");
         }
+        sc.close();
     }
     
 }

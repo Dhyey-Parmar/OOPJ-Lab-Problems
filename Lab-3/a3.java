@@ -10,5 +10,6 @@ public class a3 {
         System.out.print("Enter width of the rectangle: ");
         double width = sc.nextDouble();
         System.out.println("Area of the Rectangle: " + (length * width));
+        sc.close();
     }
 }
